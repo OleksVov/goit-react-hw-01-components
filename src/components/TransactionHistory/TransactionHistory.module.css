@@ -1,0 +1,27 @@
+.transaction-history {
+    margin-left: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.167;
+    letter-spacing: 0.02em;
+    color: #585555;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+tr {
+    height: 30px;
+}
+
+th {
+    width: 150px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(222, 219, 232);
+}
+
+td {
+    text-transform: capitalize;
+    background-color: rgb(242, 241, 246);
+}

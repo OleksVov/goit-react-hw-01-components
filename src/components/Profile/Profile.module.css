@@ -1,8 +1,9 @@
 
 .profile {
+    margin-right: 10px;
     width: 300px;
     height: 400px;
-    padding: 100px;
+    padding: 50px;
     background-color: rgb(222, 219, 232);
 
 }
