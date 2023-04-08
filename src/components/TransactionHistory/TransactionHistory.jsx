@@ -13,11 +13,12 @@ export const TransactionHistory = ({items}) =>{
   </thead>
 
   <tbody> 
-    {items.map(item =>(
-        <tr key={item.id}>
-      <td>{item.type}</td>
-      <td>{item.amount}</td>
-      <td>{item.currency}</td>
+    {items.map(({id, type, amount, currency}, index) =>(
+        <tr key={id} style ={{backgroundColor:
+        index % 2 ===0 ? "rgb(242, 241, 246)" : "rgb(229, 225, 245)"}}>
+      <td>{type}</td>
+      <td>{amount}</td>
+      <td>{currency}</td>
     </tr>
     ))
     }
