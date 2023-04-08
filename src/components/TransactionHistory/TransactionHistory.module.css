@@ -18,10 +18,9 @@ th {
     width: 150px;
     color: white;
     text-transform: uppercase;
-    background-color: rgb(222, 219, 232);
+    background-color: rgb(206, 199, 231);
 }
 
 td {
     text-transform: capitalize;
-    /* background-color: rgb(229, 225, 245); */
-}
+} 
